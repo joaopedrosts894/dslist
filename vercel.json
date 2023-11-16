@@ -1,10 +1,10 @@
 {
-    "functions": {
-        "api": {
-            "handler": "api/**/*.js"
-        },
-        "buildFunctions": {
-            "handler": "buildFunctions/**/*.js"
-        }
+  "version": 2,
+  "name": "dslist",
+  "builds": [
+    {
+      "src": "Dockerfile",
+      "use": "@vercel/docker"
     }
+  ]
 }
