@@ -1,8 +1,8 @@
 {
-  "build": {
-    "functions": {
-      "api/**/*.{js,ts,tsx,jsx}",
-      "buildFunctions/**/*.js"
+    "build": {
+        "functions": [
+            "api/**/*.{js,ts,tsx,jsx}",
+            "buildFunctions/**/*.js"
+        ]
     }
-  }
 }
