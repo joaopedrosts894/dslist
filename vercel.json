@@ -1,6 +1,10 @@
 {
     "functions": {
-        "api": "api/**/*.{js,ts,tsx,jsx}",
-        "buildFunctions": "buildFunctions/**/*.js"
+        "api": {
+            "src": "api/**/*.{js,ts,tsx,jsx}"
+        },
+        "buildFunctions": {
+            "src": "buildFunctions/**/*.js"
+        }
     }
 }
