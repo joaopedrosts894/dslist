@@ -1,0 +1,8 @@
+{
+  "build": {
+    "functions": {
+      "api/**/*.{js,ts,tsx,jsx}",
+      "buildFunctions/**/*.js"
+    }
+  }
+}
