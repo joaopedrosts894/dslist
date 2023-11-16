@@ -1,10 +1,10 @@
 {
     "functions": {
         "api": {
-            "src": "api/**/*.{js,ts,tsx,jsx}"
+            "handler": "api/**/*.js"
         },
         "buildFunctions": {
-            "src": "buildFunctions/**/*.js"
+            "handler": "buildFunctions/**/*.js"
         }
     }
 }
